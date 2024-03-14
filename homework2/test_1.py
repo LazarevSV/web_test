@@ -54,8 +54,3 @@ def test_step_3(selector_1, selector_2, selector_3, button_1, site_1,
     res_label = site_1.find_element('xpath', res_log)
     assert res_label.text == 'Create Post'
 
-# css_selector = 'span.mdc-text-field__ripple'
-# print(site.get_element_property('css', css_selector, 'height'))
-#
-# xpath = '//*[@id="login"]/div[3]/button/div'
-# print(site.get_element_property('xpath', xpath, 'color'))
